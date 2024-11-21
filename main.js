@@ -37,30 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    function nextSlide() {
-        currentSlide++;
-        showSlide(currentSlide);
-    }
-
-    function prevSlide() {
-        currentSlide--;
-        showSlide(currentSlide);
-    }
-
    
-    const nextButton = document.querySelector('.carousel-controls .next');
-    const prevButton = document.querySelector('.carousel-controls .prev');
-
-    if (nextButton) {
-        nextButton.addEventListener('click', nextSlide);
-    }
-
-    if (prevButton) {
-        prevButton.addEventListener('click', prevSlide);
-    }
-
-  
-    showSlide(currentSlide);
 
    
     const slider = document.querySelector('.themes-wrapper');
